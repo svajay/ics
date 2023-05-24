@@ -1,0 +1,89 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../css/fonts/Gilroy-Medium.eot');
+    src: url('../css/fonts/Gilroy-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../css/fonts/Gilroy-Medium.woff') format('woff'),
+        url('../css/fonts/Gilroy-Medium.ttf') format('truetype'),
+        url('../css/fonts/Gilroy-Medium.svg#Gilroy-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../css/fonts/Gilroy-Bold.eot');
+    src: url('../css/fonts/Gilroy-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../css/fonts/Gilroy-Bold.woff') format('woff'),
+        url('../css/fonts/Gilroy-Bold.ttf') format('truetype'),
+        url('../css/fonts/Gilroy-Bold.svg#Gilroy-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Corda';
+    src: url('../css/fonts/Corda-Regular.eot');
+    src: url('../css/fonts/Corda-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../css/fonts/Corda-Regular.woff') format('woff'),
+        url('../css/fonts/Corda-Regular.ttf') format('truetype'),
+        url('../css/fonts/Corda-Regular.svg#Corda-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Corda';
+    src: url('../css/fonts/Corda-Medium.eot');
+    src: url('../css/fonts/Corda-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../css/fonts/Corda-Medium.woff') format('woff'),
+        url('../css/fonts/Corda-Medium.ttf') format('truetype'),
+        url('../css/fonts/Corda-Medium.svg#Corda-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../css/fonts/Gilroy-Regular.eot');
+    src: url('../css/fonts/Gilroy-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../css/fonts/Gilroy-Regular.woff') format('woff'),
+        url('../css/fonts/Gilroy-Regular.ttf') format('truetype'),
+        url('../css/fonts/Gilroy-Regular.svg#Gilroy-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../css/fonts/Gilroy-SemiBold.eot');
+    src: url('../css/fonts/Gilroy-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../css/fonts/Gilroy-SemiBold.woff') format('woff'),
+        url('../css/fonts/Gilroy-SemiBold.ttf') format('truetype'),
+        url('../css/fonts/Gilroy-SemiBold.svg#Gilroy-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'LEMON MILK';
+    src: url('../css/fonts/LEMONMILK-Medium.woff2') format('woff2'),
+        url('../css/fonts/LEMONMILK-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'LEMON MILK';
+    src: url('../css/fonts/LEMONMILK-Regular.eot');
+    src: url('../css/fonts/LEMONMILK-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../css/fonts/LEMONMILK-Regular.woff') format('woff'),
+        url('../css/fonts/LEMONMILK-Regular.ttf') format('truetype'),
+        url('../css/fonts/LEMONMILK-Regular.svg#LEMONMILK-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}

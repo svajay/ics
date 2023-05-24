@@ -1,0 +1,520 @@
+@media (min-width: 1366px) {
+  .admissiongrid .admitextwrap {
+    height: 500px;
+  }
+}
+@media (min-width: 995px) and (max-width: 1280px) {
+  .mainheadernav .rightnav ul li a {
+    padding: 18px 1px;
+  }
+  .topheader .topnav ul li a {
+    padding: 13px 25px;
+  }
+  .fullwtwrapgaltext {
+    margin-top: 0;
+    padding: 10px 50px;
+  }
+  .banner {
+    height: auto;
+  }
+  .placementbanner {
+    height: 600px;
+  }
+}
+@media (min-width: 576px) {
+  .container {
+    max-width: 100%;
+  }
+}
+@media (max-width: 990px) {
+  .banner .aboutcaption {
+    width: 275px;
+    padding: 50px 30px;
+  }
+  .missionvisionwrap .vminner {
+    margin-bottom: 15px;
+  }
+  .brhide {
+    display: none;
+  }
+  .mainheadernav .rightnavmob .mobheaderbottom {
+    display: block;
+  }
+  .banner {
+    margin-top: 85px !important;
+  }
+  .hidediv,
+  .desknone {
+    display: block;
+  }
+  .mainheadernav .rightnav,
+  .hidetopd,
+  .mbnone {
+    display: none;
+  }
+  .mainheadernav .navbtn {
+    width: 60px;
+    float: left;
+    display: block;
+    position: absolute;
+    z-index: 6;
+    right: 5%;
+  }
+  .mainheadernav .navbtn a {
+    width: 100%;
+    float: left;
+    margin-top: 8px;
+  }
+  .menu {
+    background-color: transparent;
+    border: none !important;
+    cursor: pointer;
+    display: flex;
+    padding: 0;
+    outline: 0 !important;
+  }
+  .line {
+    fill: none;
+    stroke: #0f117a;
+    stroke-width: 3;
+    transition: stroke-dasharray 0.6s cubic-bezier(0.4, 0, 0.2, 1),
+      stroke-dashoffset 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .line1 {
+    stroke-dasharray: 60 207;
+    stroke-width: 3;
+  }
+  .line2 {
+    stroke-dasharray: 60 60;
+    stroke-width: 3;
+  }
+  .line3 {
+    stroke-dasharray: 60 207;
+    stroke-width: 3;
+  }
+  .opened .line1 {
+    stroke-dasharray: 90 207;
+    stroke-dashoffset: -134;
+    stroke-width: 3;
+  }
+  .opened .line2 {
+    stroke-dasharray: 1 60;
+    stroke-dashoffset: -30;
+    stroke-width: 3;
+  }
+  .opened .line3 {
+    stroke-dasharray: 90 207;
+    stroke-dashoffset: -134;
+    stroke-width: 3;
+  }
+  .mainheadernav .logo {
+    width: 100%;
+    float: left;
+    padding: 10px 0px;
+    text-align: left;
+  }
+  .mainheadernav .logo img {
+    width: 120px;
+  }
+  .mainheadernav .rightnavmob {
+    width: 100%;
+    height: auto;
+    float: left;
+    display: block;
+    position: absolute;
+    top: 4px;
+    left: 0px;
+    background: #ffffff;
+    transform: translateX(150%);
+    -webkit-transform: translateX(150%);
+    transition: all 0.5s ease;
+  }
+  .mainheadernav .rightnavmob.shownavlink {
+    transform: translateX(0%);
+    -webkit-transform: translateX(0%);
+  }
+  .mainheadernav .rightnavmob ul {
+    margin: 0;
+    padding: 0;
+    width: 90%;
+    position: relative;
+    left: 5%;
+  }
+  .mainheadernav .rightnavmob ul li {
+    width: 100%;
+    float: left;
+    margin: 0;
+    border-bottom: 1px solid #fec21c;
+  }
+  .mainheadernav .rightnavmob ul li:nth-last-child(1) {
+    border: none;
+    margin: 0 0px !important;
+  }
+  .mainheadernav .rightnavmob ul li a {
+    border-bottom: 0 !important;
+    width: 100%;
+    float: left;
+    font-family: "Gilroy";
+    font-weight: 500;
+    font-size: 0.59rem;
+    color: #050103;
+    padding: 15px 0px;
+    letter-spacing: 0.9px;
+    text-transform: uppercase;
+  }
+  .mainheadernav .rightnavmob .mobheaderbottom {
+    width: 100%;
+    float: left;
+  }
+  .mainheadernav .rightnavmob .mobheaderbottom .mediaicon {
+    width: 156px;
+    height: 100%;
+    float: left;
+    padding: 0px;
+  }
+  .mainheadernav .rightnavmob .mobheaderbottom .mediaicon ul {
+    margin: 0;
+    padding: 0;
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    left: 0px;
+  }
+  .mainheadernav .rightnavmob .mobheaderbottom .mediaicon ul li {
+    width: auto;
+    float: left;
+    border: none;
+  }
+  .mainheadernav .rightnavmob .mobheaderbottom .mediaicon ul li a {
+    width: 100%;
+    float: left;
+    text-align: center;
+    color: #515151;
+  }
+  .mainheadernav .rightnavmob .mobheaderbottom .mediaicon ul li a i {
+    font-size: 18px;
+    color: #35495e;
+  }
+  .mediamobopen.mediamobopenshow {
+    transform: translateY(0%);
+    opacity: 1 !important;
+    visibility: visible !important;
+  }
+  .mediamobopen {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(0%);
+    transition: all 0.5s ease;
+    position: relative;
+    top: 60px;
+  }
+  .confmobopen.confmobopenshow {
+    transform: translateY(0%);
+    opacity: 1 !important;
+    visibility: visible !important;
+  }
+  .confmobopen {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(0%);
+    transition: all 0.5s ease;
+    position: relative;
+    top: 60px;
+  }
+  .mainheadernav .rightnav ul li ul li a {
+    padding: 12px 10px;
+  }
+  .mainheadernav .rightnavmob .mobheaderbottom .topnav {
+    width: 100%;
+    height: auto;
+    float: left;
+    border-top: 1px solid #fec21c;
+  }
+  .mainheadernav .rightnavmob .mobheaderbottom .topnav ul {
+    margin: 0;
+    padding: 0;
+    width: 80%;
+    left: 0px;
+    position: relative;
+  }
+  .mainheadernav .rightnavmob .mobheaderbottom .topnav ul li {
+    width: 100%;
+    float: left;
+    margin-right: 10px;
+    border-bottom: 1px solid #fec21c;
+    position: relative;
+  }
+  .mainheadernav .rightnavmob .mobheaderbottom .topnav ul li a {
+    border: 0;
+    width: 100%;
+    float: left;
+    font-weight: 500;
+    font-family: "Gilroy";
+    font-size: 0.59rem;
+    color: #515151;
+    padding: 18px 2px;
+    letter-spacing: 0.9px;
+    text-transform: uppercase;
+  }
+  .mainheadernav .rightnavmob .mobheaderbottom .topnav ul li ul {
+    width: 100%;
+    background: #fff;
+    padding: 5px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.5s ease;
+    position: absolute;
+    top: 41px;
+    left: 0;
+    z-index: 4;
+  }
+  footer .footernavigation .footerlogo img {
+    width: 150px;
+  }
+  .footernavigation .col-md-4 {
+    width: 100%;
+    max-width: 100%;
+  }
+  .footernavigation .col-md-4 .col-md-4 {
+    width: 50%;
+    max-width: 50%;
+    flex: 50%;
+  }
+  .nav-justified .nav-item {
+    flex-basis: 0;
+  }
+  .pr-0 {
+    padding-right: 15px !important;
+  }
+  .pl-0 {
+    padding-left: 15px !important;
+  }
+  .map {
+    height: 550px;
+  }
+  .mbhid {
+    display: none;
+  }
+  .lastviewgrid .galleryviewbtn strong {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .whbggrid a {
+    position: relative;
+    z-index: 1;
+    bottom: 0;
+    left: 0;
+  }
+  .fullwtwrapgaltext {
+    margin-top: 0;
+    padding: 10px 50px;
+  }
+  .placementbanner {
+    display: none;
+  }
+  .mbplacementbanner {
+    display: block;
+  }
+  .icsbanner {
+    display: none;
+  }
+  .mbicsbanner {
+    display: block;
+  }
+  .admissiongrid {
+    margin: 140px 0;
+  }
+  .admissiongrid .admitextwrap {
+    width: 90%;
+  }
+  .gallerytbtn {
+    position: static;
+    margin-bottom: 50px;
+  }
+  .admissiongrid .admitextwrap {
+    height: 540px;
+  }
+  .padd100 {
+    padding: 50px 0;
+  }
+  .messtextwrap strong {
+    font-size: 30px;
+    line-height: normal;
+  }
+  .mainheadernav .rightnav ul li ul {
+    z-index: 3;
+    top: 40px;
+    width: 100%;
+    padding: 0px;
+    box-shadow: 0 17px 28px 3px rgb(0 0 0 / 23%);
+    background: #fff;
+  }
+  .mainheadernav .rightnav ul li ul li {
+    width: 100%;
+  }
+  .tab-content {
+    padding-top: 50px;
+  }
+  .tab-content > .tab-pane strong {
+    line-height: normal;
+  }
+}
+
+@media (max-width: 768px) {
+  .innerfacultywrap .passionlinking a span {
+    width: 85%;
+    display: inline-block;
+  }
+  .recruiterlogowrap img {
+    width: 140px;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .mbottom {
+    margin-bottom: 24px;
+  }
+  .mainheadernav .rightnavmob .mobheaderbottom .topnav ul {
+    width: 100%;
+  }
+  .mainheadernav .container {
+    width: 100%;
+  }
+  .widthauto {
+    width: 100%;
+  }
+  .placement .nav-tabs {
+    display: block;
+  }
+  .pb-5 {
+    padding-bottom: 0rem !important;
+  }
+  .map {
+    height: 500px;
+  }
+  .s-input > label {
+    line-height: 26px;
+    white-space: inherit;
+  }
+  footer .footerheading strong {
+    display: block;
+    padding-bottom: 40px;
+  }
+  .admissioncomwrap {
+    padding: 0 0 200px;
+  }
+
+  .footernavigation .col-md-4 {
+    width: 100%;
+  }
+  .footernavigation .col-md-4 .col-md-4 {
+    width: 33%;
+    max-width: 33%;
+    flex: 33%;
+  }
+  .footermedia .col-md-6 {
+    width: 50%;
+  }
+
+  .closebtninno {
+    border-color: #35495e !important;
+  }
+  .closebtninno a {
+    color: #35495e !important;
+  }
+  footer .footernavigation .footerlogo,
+  footer .footernavigation .footnav {
+    display: none;
+  }
+  footer .footernavigation .footaddress {
+    text-align: center;
+  }
+  footer .footernavigation .footaddress address {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  footer .footernavigation .footaddress a {
+    font-size: 16px;
+    float: none;
+    display: inline-block;
+    width: auto;
+  }
+  .paddt400 {
+    padding-top: 15px;
+  }
+  footer .footernavigation .footaddress span {
+    margin: 0 14px;
+    display: inline-block;
+    color: #c2c8ce;
+  }
+  .banner video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .footermedia {
+    text-align: center;
+  }
+  footer .footermedia .restext {
+    justify-content: center;
+  }
+  /*footer .footermedia .mediaiconfooter{ display:none;}*/
+  footer .footermedia {
+    padding: 20px 0px;
+  }
+  .padd60 {
+    padding: 40px 0;
+  }
+  .gallerygridwrap {
+    display: block;
+  }
+  .gallerygridwrap .itemsgrid,
+  .fullwtwrapgal {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .fullwtwrapgal {
+    display: inline-block !important;
+    padding: 15px 0 0 0;
+  }
+  .lastviewgrid .galleryviewbtn {
+    height: 300px;
+    position: relative;
+    top: 70px;
+  }
+  .recordwrap .accordion .card h2 {
+    font-size: 13px !important;
+  }
+}
+@media (max-width: 640px) {
+  .mobheaderbottom .px-0 {
+    padding-left: 15px !important;
+  }
+  .placement .nav-tabs a::after {
+    display: none;
+  }
+  .mainheadernav .navbtn {
+    right: 2%;
+  }
+  footer .footernavigation .footnav ul li a {
+    font-size: 13px;
+  }
+  .banner .caption h4 {
+    font-size: 35px;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-size: 25px !important;
+    line-height: normal !important;
+  }
+}
+@media (max-width: 320px) {
+}
